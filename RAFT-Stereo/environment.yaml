@@ -1,0 +1,20 @@
+name: raft
+channels:
+  - pytorch
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - matplotlib
+  - tensorboard
+  - scipy
+  - opencv
+  - tqdm
+  - opt_einsum
+  - imageio
+  - scikit-image
+  - p7zip
